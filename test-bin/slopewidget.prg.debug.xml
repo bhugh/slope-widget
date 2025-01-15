@@ -14,9 +14,9 @@
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetApp.mc" id="5" lineNum="6" parent="globals/SlopeWidgetApp" pc="268435700" symbol="initialize"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetApp.mc" id="6" lineNum="25" parent="globals/SlopeWidgetApp" pc="268435719" symbol="getGlanceView"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetApp.mc" id="6" lineNum="26" parent="globals/SlopeWidgetApp" pc="268435721" symbol="getGlanceView"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="8" lineNum="98" parent="globals/SlopeWidgetGlanceView" pc="268435762" symbol="drawInclination"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="8" lineNum="99" parent="globals/SlopeWidgetGlanceView" pc="268435766" symbol="drawInclination"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="8" lineNum="108" parent="globals/SlopeWidgetGlanceView" pc="268435906" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="8" lineNum="97" parent="globals/SlopeWidgetGlanceView" pc="268435762" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="8" lineNum="98" parent="globals/SlopeWidgetGlanceView" pc="268435766" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="8" lineNum="107" parent="globals/SlopeWidgetGlanceView" pc="268435906" symbol="drawInclination"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="9" lineNum="20" parent="globals/SlopeWidgetGlanceView" pc="268435921" symbol="onShow"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="9" lineNum="21" parent="globals/SlopeWidgetGlanceView" pc="268435923" symbol="onShow"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="9" lineNum="22" parent="globals/SlopeWidgetGlanceView" pc="268435957" symbol="onShow"/>
@@ -29,13 +29,13 @@
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="12" lineNum="63" parent="globals/SlopeWidgetGlanceView" pc="268436166" symbol="drawAlpha"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="12" lineNum="64" parent="globals/SlopeWidgetGlanceView" pc="268436170" symbol="drawAlpha"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="12" lineNum="65" parent="globals/SlopeWidgetGlanceView" pc="268436226" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="12" lineNum="74" parent="globals/SlopeWidgetGlanceView" pc="268436343" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="78" parent="globals/SlopeWidgetGlanceView" pc="268436358" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="80" parent="globals/SlopeWidgetGlanceView" pc="268436362" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="81" parent="globals/SlopeWidgetGlanceView" pc="268436382" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="84" parent="globals/SlopeWidgetGlanceView" pc="268436392" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="86" parent="globals/SlopeWidgetGlanceView" pc="268436399" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="95" parent="globals/SlopeWidgetGlanceView" pc="268436495" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="12" lineNum="73" parent="globals/SlopeWidgetGlanceView" pc="268436343" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="77" parent="globals/SlopeWidgetGlanceView" pc="268436358" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="79" parent="globals/SlopeWidgetGlanceView" pc="268436362" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="80" parent="globals/SlopeWidgetGlanceView" pc="268436382" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="83" parent="globals/SlopeWidgetGlanceView" pc="268436392" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="85" parent="globals/SlopeWidgetGlanceView" pc="268436399" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="13" lineNum="94" parent="globals/SlopeWidgetGlanceView" pc="268436495" symbol="drawNoData"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="14" lineNum="15" parent="globals/SlopeWidgetGlanceView" pc="268436510" symbol="initialize"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="14" lineNum="16" parent="globals/SlopeWidgetGlanceView" pc="268436512" symbol="initialize"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetGlanceView.mc" id="14" lineNum="17" parent="globals/SlopeWidgetGlanceView" pc="268436537" symbol="initialize"/>
@@ -122,112 +122,122 @@
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\InputDelegate.mc" id="25" lineNum="12" parent="globals/InputDelegate" pc="268438165" symbol="onKey"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\InputDelegate.mc" id="25" lineNum="13" parent="globals/InputDelegate" pc="268438167" symbol="onKey"/>
 <entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\InputDelegate.mc" id="25" lineNum="14" parent="globals/InputDelegate" pc="268438187" symbol="onKey"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="26" lineNum="99" parent="globals/SlopeWidgetView" pc="268438206" symbol="timerCallback"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="26" lineNum="100" parent="globals/SlopeWidgetView" pc="268438208" symbol="timerCallback"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="112" parent="globals/SlopeWidgetView" pc="268438221" symbol="drawHold"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="113" parent="globals/SlopeWidgetView" pc="268438225" symbol="drawHold"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="115" parent="globals/SlopeWidgetView" pc="268438281" symbol="drawHold"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="116" parent="globals/SlopeWidgetView" pc="268438310" symbol="drawHold"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="117" parent="globals/SlopeWidgetView" pc="268438329" symbol="drawHold"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="118" parent="globals/SlopeWidgetView" pc="268438346" symbol="drawHold"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="211" parent="globals/SlopeWidgetView" pc="268438425" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="212" parent="globals/SlopeWidgetView" pc="268438429" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="213" parent="globals/SlopeWidgetView" pc="268438436" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="214" parent="globals/SlopeWidgetView" pc="268438459" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="216" parent="globals/SlopeWidgetView" pc="268438466" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="226" parent="globals/SlopeWidgetView" pc="268438612" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="227" parent="globals/SlopeWidgetView" pc="268438647" symbol="drawRoll"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="29" lineNum="95" parent="globals/SlopeWidgetView" pc="268438662" symbol="onHide"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="29" lineNum="96" parent="globals/SlopeWidgetView" pc="268438664" symbol="onHide"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="175" parent="globals/SlopeWidgetView" pc="268438683" symbol="drawInclination"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="177" parent="globals/SlopeWidgetView" pc="268438687" symbol="drawInclination"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="179" parent="globals/SlopeWidgetView" pc="268438757" symbol="drawInclination"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="188" parent="globals/SlopeWidgetView" pc="268438900" symbol="drawInclination"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="37" parent="globals/SlopeWidgetView" pc="268438915" symbol="onShow"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="38" parent="globals/SlopeWidgetView" pc="268438919" symbol="onShow"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="39" parent="globals/SlopeWidgetView" pc="268438953" symbol="onShow"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="40" parent="globals/SlopeWidgetView" pc="268438987" symbol="onShow"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="41" parent="globals/SlopeWidgetView" pc="268439045" symbol="onShow"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="23" parent="globals/SlopeWidgetView" pc="268439084" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="24" parent="globals/SlopeWidgetView" pc="268439086" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="25" parent="globals/SlopeWidgetView" pc="268439142" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="26" parent="globals/SlopeWidgetView" pc="268439183" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="27" parent="globals/SlopeWidgetView" pc="268439213" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="28" parent="globals/SlopeWidgetView" pc="268439243" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="29" parent="globals/SlopeWidgetView" pc="268439273" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="30" parent="globals/SlopeWidgetView" pc="268439303" symbol="onLayout"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="33" lineNum="163" parent="globals/SlopeWidgetView" pc="268439334" symbol="drawTitle"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="33" lineNum="164" parent="globals/SlopeWidgetView" pc="268439338" symbol="drawTitle"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="33" lineNum="172" parent="globals/SlopeWidgetView" pc="268439424" symbol="drawTitle"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="231" parent="globals/SlopeWidgetView" pc="268439439" symbol="drawFlat"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="232" parent="globals/SlopeWidgetView" pc="268439443" symbol="drawFlat"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="234" parent="globals/SlopeWidgetView" pc="268439513" symbol="drawFlat"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="244" parent="globals/SlopeWidgetView" pc="268439612" symbol="drawFlat"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="126" parent="globals/SlopeWidgetView" pc="268439627" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="127" parent="globals/SlopeWidgetView" pc="268439631" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="128" parent="globals/SlopeWidgetView" pc="268439687" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="129" parent="globals/SlopeWidgetView" pc="268439694" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="130" parent="globals/SlopeWidgetView" pc="268439771" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="139" parent="globals/SlopeWidgetView" pc="268439882" symbol="drawAlpha"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="103" parent="globals/SlopeWidgetView" pc="268439897" symbol="setPause"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="104" parent="globals/SlopeWidgetView" pc="268439899" symbol="setPause"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="105" parent="globals/SlopeWidgetView" pc="268439955" symbol="setPause"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="107" parent="globals/SlopeWidgetView" pc="268439973" symbol="setPause"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="143" parent="globals/SlopeWidgetView" pc="268439984" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="145" parent="globals/SlopeWidgetView" pc="268439988" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="146" parent="globals/SlopeWidgetView" pc="268440008" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="149" parent="globals/SlopeWidgetView" pc="268440018" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="151" parent="globals/SlopeWidgetView" pc="268440025" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="160" parent="globals/SlopeWidgetView" pc="268440121" symbol="drawNoData"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="16" parent="globals/SlopeWidgetView" pc="268440136" symbol="initialize"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="17" parent="globals/SlopeWidgetView" pc="268440138" symbol="initialize"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="18" parent="globals/SlopeWidgetView" pc="268440163" symbol="initialize"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="19" parent="globals/SlopeWidgetView" pc="268440173" symbol="initialize"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="192" parent="globals/SlopeWidgetView" pc="268440192" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="193" parent="globals/SlopeWidgetView" pc="268440196" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="194" parent="globals/SlopeWidgetView" pc="268440203" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="195" parent="globals/SlopeWidgetView" pc="268440226" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="197" parent="globals/SlopeWidgetView" pc="268440233" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="206" parent="globals/SlopeWidgetView" pc="268440379" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="207" parent="globals/SlopeWidgetView" pc="268440414" symbol="drawPitch"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="45" parent="globals/SlopeWidgetView" pc="268440429" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="46" parent="globals/SlopeWidgetView" pc="268440431" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="47" parent="globals/SlopeWidgetView" pc="268440443" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="50" parent="globals/SlopeWidgetView" pc="268440461" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="51" parent="globals/SlopeWidgetView" pc="268440517" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="52" parent="globals/SlopeWidgetView" pc="268440597" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="53" parent="globals/SlopeWidgetView" pc="268440658" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="54" parent="globals/SlopeWidgetView" pc="268440719" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="55" parent="globals/SlopeWidgetView" pc="268440780" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="56" parent="globals/SlopeWidgetView" pc="268440835" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="57" parent="globals/SlopeWidgetView" pc="268440891" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="59" parent="globals/SlopeWidgetView" pc="268440923" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="60" parent="globals/SlopeWidgetView" pc="268440955" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="61" parent="globals/SlopeWidgetView" pc="268440987" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="64" parent="globals/SlopeWidgetView" pc="268441008" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="65" parent="globals/SlopeWidgetView" pc="268441020" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="66" parent="globals/SlopeWidgetView" pc="268441042" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="68" parent="globals/SlopeWidgetView" pc="268441086" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="69" parent="globals/SlopeWidgetView" pc="268441103" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="70" parent="globals/SlopeWidgetView" pc="268441117" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="73" parent="globals/SlopeWidgetView" pc="268441132" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="75" parent="globals/SlopeWidgetView" pc="268441188" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="76" parent="globals/SlopeWidgetView" pc="268441202" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="77" parent="globals/SlopeWidgetView" pc="268441216" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="78" parent="globals/SlopeWidgetView" pc="268441230" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="79" parent="globals/SlopeWidgetView" pc="268441244" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="83" parent="globals/SlopeWidgetView" pc="268441259" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="84" parent="globals/SlopeWidgetView" pc="268441273" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="85" parent="globals/SlopeWidgetView" pc="268441287" symbol="onUpdate"/>
-<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="86" parent="globals/SlopeWidgetView" pc="268441301" symbol="onUpdate"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="13" parent="globals/Rez/Layouts" pc="268441316" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="14" parent="globals/Rez/Layouts" pc="268441328" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="16" parent="globals/Rez/Layouts" pc="268441453" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="18" parent="globals/Rez/Layouts" pc="268441565" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="20" parent="globals/Rez/Layouts" pc="268441677" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="22" parent="globals/Rez/Layouts" pc="268441789" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="24" parent="globals/Rez/Layouts" pc="268441901" symbol="DebugLayout"/>
-<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="26" parent="globals/Rez/Layouts" pc="268442013" symbol="DebugLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="26" lineNum="100" parent="globals/SlopeWidgetView" pc="268438206" symbol="timerCallback"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="26" lineNum="101" parent="globals/SlopeWidgetView" pc="268438208" symbol="timerCallback"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="113" parent="globals/SlopeWidgetView" pc="268438221" symbol="drawHold"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="114" parent="globals/SlopeWidgetView" pc="268438225" symbol="drawHold"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="116" parent="globals/SlopeWidgetView" pc="268438281" symbol="drawHold"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="117" parent="globals/SlopeWidgetView" pc="268438310" symbol="drawHold"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="118" parent="globals/SlopeWidgetView" pc="268438329" symbol="drawHold"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="27" lineNum="119" parent="globals/SlopeWidgetView" pc="268438346" symbol="drawHold"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="225" parent="globals/SlopeWidgetView" pc="268438425" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="226" parent="globals/SlopeWidgetView" pc="268438429" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="227" parent="globals/SlopeWidgetView" pc="268438436" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="228" parent="globals/SlopeWidgetView" pc="268438459" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="230" parent="globals/SlopeWidgetView" pc="268438466" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="240" parent="globals/SlopeWidgetView" pc="268438612" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="28" lineNum="241" parent="globals/SlopeWidgetView" pc="268438647" symbol="drawRoll"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="29" lineNum="96" parent="globals/SlopeWidgetView" pc="268438662" symbol="onHide"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="29" lineNum="97" parent="globals/SlopeWidgetView" pc="268438664" symbol="onHide"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="176" parent="globals/SlopeWidgetView" pc="268438683" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="178" parent="globals/SlopeWidgetView" pc="268438687" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="179" parent="globals/SlopeWidgetView" pc="268438694" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="180" parent="globals/SlopeWidgetView" pc="268438701" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="181" parent="globals/SlopeWidgetView" pc="268438724" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="182" parent="globals/SlopeWidgetView" pc="268438731" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="185" parent="globals/SlopeWidgetView" pc="268438738" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="187" parent="globals/SlopeWidgetView" pc="268438808" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="30" lineNum="196" parent="globals/SlopeWidgetView" pc="268438957" symbol="drawInclination"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="38" parent="globals/SlopeWidgetView" pc="268438972" symbol="onShow"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="39" parent="globals/SlopeWidgetView" pc="268438976" symbol="onShow"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="40" parent="globals/SlopeWidgetView" pc="268439010" symbol="onShow"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="41" parent="globals/SlopeWidgetView" pc="268439044" symbol="onShow"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="31" lineNum="42" parent="globals/SlopeWidgetView" pc="268439102" symbol="onShow"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="24" parent="globals/SlopeWidgetView" pc="268439141" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="25" parent="globals/SlopeWidgetView" pc="268439143" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="26" parent="globals/SlopeWidgetView" pc="268439199" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="27" parent="globals/SlopeWidgetView" pc="268439240" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="28" parent="globals/SlopeWidgetView" pc="268439270" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="29" parent="globals/SlopeWidgetView" pc="268439300" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="30" parent="globals/SlopeWidgetView" pc="268439330" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="32" lineNum="31" parent="globals/SlopeWidgetView" pc="268439360" symbol="onLayout"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="33" lineNum="164" parent="globals/SlopeWidgetView" pc="268439391" symbol="drawTitle"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="33" lineNum="165" parent="globals/SlopeWidgetView" pc="268439395" symbol="drawTitle"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="33" lineNum="173" parent="globals/SlopeWidgetView" pc="268439481" symbol="drawTitle"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="245" parent="globals/SlopeWidgetView" pc="268439496" symbol="drawFlat"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="246" parent="globals/SlopeWidgetView" pc="268439500" symbol="drawFlat"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="248" parent="globals/SlopeWidgetView" pc="268439570" symbol="drawFlat"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="34" lineNum="258" parent="globals/SlopeWidgetView" pc="268439669" symbol="drawFlat"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="127" parent="globals/SlopeWidgetView" pc="268439684" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="128" parent="globals/SlopeWidgetView" pc="268439688" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="129" parent="globals/SlopeWidgetView" pc="268439744" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="130" parent="globals/SlopeWidgetView" pc="268439751" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="131" parent="globals/SlopeWidgetView" pc="268439828" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="35" lineNum="140" parent="globals/SlopeWidgetView" pc="268439939" symbol="drawAlpha"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="104" parent="globals/SlopeWidgetView" pc="268439954" symbol="setPause"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="105" parent="globals/SlopeWidgetView" pc="268439956" symbol="setPause"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="106" parent="globals/SlopeWidgetView" pc="268440012" symbol="setPause"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="36" lineNum="108" parent="globals/SlopeWidgetView" pc="268440030" symbol="setPause"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="144" parent="globals/SlopeWidgetView" pc="268440041" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="146" parent="globals/SlopeWidgetView" pc="268440045" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="147" parent="globals/SlopeWidgetView" pc="268440065" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="150" parent="globals/SlopeWidgetView" pc="268440075" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="152" parent="globals/SlopeWidgetView" pc="268440082" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="37" lineNum="161" parent="globals/SlopeWidgetView" pc="268440178" symbol="drawNoData"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="17" parent="globals/SlopeWidgetView" pc="268440193" symbol="initialize"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="18" parent="globals/SlopeWidgetView" pc="268440195" symbol="initialize"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="19" parent="globals/SlopeWidgetView" pc="268440220" symbol="initialize"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="38" lineNum="20" parent="globals/SlopeWidgetView" pc="268440230" symbol="initialize"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="200" parent="globals/SlopeWidgetView" pc="268440249" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="201" parent="globals/SlopeWidgetView" pc="268440253" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="202" parent="globals/SlopeWidgetView" pc="268440260" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="203" parent="globals/SlopeWidgetView" pc="268440267" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="204" parent="globals/SlopeWidgetView" pc="268440290" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="205" parent="globals/SlopeWidgetView" pc="268440297" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="206" parent="globals/SlopeWidgetView" pc="268440316" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="208" parent="globals/SlopeWidgetView" pc="268440326" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="209" parent="globals/SlopeWidgetView" pc="268440337" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="211" parent="globals/SlopeWidgetView" pc="268440344" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="220" parent="globals/SlopeWidgetView" pc="268440493" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="39" lineNum="221" parent="globals/SlopeWidgetView" pc="268440528" symbol="drawPitch"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="46" parent="globals/SlopeWidgetView" pc="268440543" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="47" parent="globals/SlopeWidgetView" pc="268440545" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="48" parent="globals/SlopeWidgetView" pc="268440557" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="51" parent="globals/SlopeWidgetView" pc="268440575" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="52" parent="globals/SlopeWidgetView" pc="268440631" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="53" parent="globals/SlopeWidgetView" pc="268440711" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="54" parent="globals/SlopeWidgetView" pc="268440772" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="55" parent="globals/SlopeWidgetView" pc="268440833" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="56" parent="globals/SlopeWidgetView" pc="268440894" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="57" parent="globals/SlopeWidgetView" pc="268440949" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="58" parent="globals/SlopeWidgetView" pc="268441005" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="60" parent="globals/SlopeWidgetView" pc="268441037" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="61" parent="globals/SlopeWidgetView" pc="268441069" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="62" parent="globals/SlopeWidgetView" pc="268441101" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="65" parent="globals/SlopeWidgetView" pc="268441122" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="66" parent="globals/SlopeWidgetView" pc="268441134" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="67" parent="globals/SlopeWidgetView" pc="268441156" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="69" parent="globals/SlopeWidgetView" pc="268441200" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="70" parent="globals/SlopeWidgetView" pc="268441217" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="71" parent="globals/SlopeWidgetView" pc="268441231" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="74" parent="globals/SlopeWidgetView" pc="268441246" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="76" parent="globals/SlopeWidgetView" pc="268441302" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="77" parent="globals/SlopeWidgetView" pc="268441316" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="78" parent="globals/SlopeWidgetView" pc="268441330" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="79" parent="globals/SlopeWidgetView" pc="268441344" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="80" parent="globals/SlopeWidgetView" pc="268441358" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="84" parent="globals/SlopeWidgetView" pc="268441373" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="85" parent="globals/SlopeWidgetView" pc="268441387" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="86" parent="globals/SlopeWidgetView" pc="268441401" symbol="onUpdate"/>
+<entry filename="E:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\source\\SlopeWidgetView.mc" id="40" lineNum="87" parent="globals/SlopeWidgetView" pc="268441415" symbol="onUpdate"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="13" parent="globals/Rez/Layouts" pc="268441430" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="14" parent="globals/Rez/Layouts" pc="268441442" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="16" parent="globals/Rez/Layouts" pc="268441567" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="18" parent="globals/Rez/Layouts" pc="268441679" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="20" parent="globals/Rez/Layouts" pc="268441791" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="22" parent="globals/Rez/Layouts" pc="268441903" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="24" parent="globals/Rez/Layouts" pc="268442015" symbol="DebugLayout"/>
+<entry filename="e:\\Data-Brent\\Garmin-App-Development\\SDK-examples\\slope-widget\\test-bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="41" lineNum="26" parent="globals/Rez/Layouts" pc="268442127" symbol="DebugLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -353,26 +363,31 @@
 <entry arg="true" endPc="268438661" name="dc" stackId="1" startPc="268438425"/>
 <entry endPc="268438660" name="hAlign" stackId="2" startPc="268438429"/>
 <entry endPc="268438660" name="rollText" stackId="3" startPc="268438429"/>
-<entry arg="true" endPc="268438914" name="dc" stackId="1" startPc="268438683"/>
-<entry endPc="268438913" name="inclinationText" stackId="2" startPc="268438757"/>
-<entry endPc="268439082" name="refreshFrequency" stackId="1" startPc="268438919"/>
-<entry arg="true" endPc="268439333" name="dc" stackId="1" startPc="268439084"/>
-<entry arg="true" endPc="268439438" name="dc" stackId="1" startPc="268439334"/>
-<entry endPc="268439437" name="titleText" stackId="2" startPc="268439338"/>
-<entry arg="true" endPc="268439626" name="dc" stackId="1" startPc="268439439"/>
-<entry endPc="268439625" name="flatText" stackId="2" startPc="268439513"/>
-<entry arg="true" endPc="268439896" name="dc" stackId="1" startPc="268439627"/>
-<entry endPc="268439895" name="alphaFont" stackId="2" startPc="268439687"/>
-<entry endPc="268439895" name="locY" stackId="3" startPc="268439687"/>
-<entry endPc="268439895" name="alphaText" stackId="4" startPc="268439687"/>
-<entry arg="true" endPc="268440135" name="dc" stackId="1" startPc="268439984"/>
-<entry endPc="268440134" name="text" stackId="2" startPc="268439988"/>
-<entry endPc="268440134" name="noDataText" stackId="3" startPc="268439988"/>
-<entry arg="true" endPc="268440428" name="dc" stackId="1" startPc="268440192"/>
-<entry endPc="268440427" name="vAlign" stackId="2" startPc="268440196"/>
-<entry endPc="268440427" name="pitchText" stackId="3" startPc="268440196"/>
-<entry arg="true" endPc="268441315" name="dc" stackId="1" startPc="268440429"/>
-<entry arg="true" endPc="268442079" name="dc" stackId="1" startPc="268441316"/>
+<entry arg="true" endPc="268438971" name="dc" stackId="1" startPc="268438683"/>
+<entry endPc="268438970" name="addTxtLeft" stackId="2" startPc="268438687"/>
+<entry endPc="268438970" name="addTxtRight" stackId="3" startPc="268438687"/>
+<entry endPc="268438970" name="inclinationText" stackId="4" startPc="268438808"/>
+<entry endPc="268439139" name="refreshFrequency" stackId="1" startPc="268438976"/>
+<entry arg="true" endPc="268439390" name="dc" stackId="1" startPc="268439141"/>
+<entry arg="true" endPc="268439495" name="dc" stackId="1" startPc="268439391"/>
+<entry endPc="268439494" name="titleText" stackId="2" startPc="268439395"/>
+<entry arg="true" endPc="268439683" name="dc" stackId="1" startPc="268439496"/>
+<entry endPc="268439682" name="flatText" stackId="2" startPc="268439570"/>
+<entry arg="true" endPc="268439953" name="dc" stackId="1" startPc="268439684"/>
+<entry endPc="268439952" name="alphaFont" stackId="2" startPc="268439744"/>
+<entry endPc="268439952" name="locY" stackId="3" startPc="268439744"/>
+<entry endPc="268439952" name="alphaText" stackId="4" startPc="268439744"/>
+<entry arg="true" endPc="268440192" name="dc" stackId="1" startPc="268440041"/>
+<entry endPc="268440191" name="text" stackId="2" startPc="268440045"/>
+<entry endPc="268440191" name="noDataText" stackId="3" startPc="268440045"/>
+<entry arg="true" endPc="268440542" name="dc" stackId="1" startPc="268440249"/>
+<entry endPc="268440541" name="vAlign" stackId="2" startPc="268440253"/>
+<entry endPc="268440541" name="addTxt" stackId="3" startPc="268440253"/>
+<entry endPc="268440343" name="mySettings" stackId="4" startPc="268440290"/>
+<entry endPc="268440343" name="screenShape" stackId="5" startPc="268440290"/>
+<entry endPc="268440541" name="pitchText" stackId="6" startPc="268440253"/>
+<entry arg="true" endPc="268441429" name="dc" stackId="1" startPc="268440543"/>
+<entry arg="true" endPc="268442193" name="dc" stackId="1" startPc="268441430"/>
 </localVars>
 <deviceInfo partNumber="006-B3888-00"/>
 <annotations>
@@ -551,48 +566,48 @@
 <functionEntry accessMode="public" endPc="268438682" name="onHide" parent="SlopeWidgetView" startPc="268438662">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438914" name="drawInclination" parent="SlopeWidgetView" startPc="268438683">
+<functionEntry accessMode="public" endPc="268438971" name="drawInclination" parent="SlopeWidgetView" startPc="268438683">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439083" name="onShow" parent="SlopeWidgetView" startPc="268438915">
+<functionEntry accessMode="public" endPc="268439140" name="onShow" parent="SlopeWidgetView" startPc="268438972">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439333" name="onLayout" parent="SlopeWidgetView" startPc="268439084">
+<functionEntry accessMode="public" endPc="268439390" name="onLayout" parent="SlopeWidgetView" startPc="268439141">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439438" name="drawTitle" parent="SlopeWidgetView" startPc="268439334">
+<functionEntry accessMode="public" endPc="268439495" name="drawTitle" parent="SlopeWidgetView" startPc="268439391">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439626" name="drawFlat" parent="SlopeWidgetView" startPc="268439439">
+<functionEntry accessMode="public" endPc="268439683" name="drawFlat" parent="SlopeWidgetView" startPc="268439496">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439896" name="drawAlpha" parent="SlopeWidgetView" startPc="268439627">
+<functionEntry accessMode="public" endPc="268439953" name="drawAlpha" parent="SlopeWidgetView" startPc="268439684">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439983" name="setPause" parent="SlopeWidgetView" startPc="268439897">
+<functionEntry accessMode="public" endPc="268440040" name="setPause" parent="SlopeWidgetView" startPc="268439954">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440135" name="drawNoData" parent="SlopeWidgetView" startPc="268439984">
+<functionEntry accessMode="public" endPc="268440192" name="drawNoData" parent="SlopeWidgetView" startPc="268440041">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440191" name="initialize" parent="SlopeWidgetView" startPc="268440136">
+<functionEntry accessMode="public" endPc="268440248" name="initialize" parent="SlopeWidgetView" startPc="268440193">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440428" name="drawPitch" parent="SlopeWidgetView" startPc="268440192">
+<functionEntry accessMode="public" endPc="268440542" name="drawPitch" parent="SlopeWidgetView" startPc="268440249">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441315" name="onUpdate" parent="SlopeWidgetView" startPc="268440429">
+<functionEntry accessMode="public" endPc="268441429" name="onUpdate" parent="SlopeWidgetView" startPc="268440543">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442079" name="DebugLayout" parent="Layouts" startPc="268441316">
+<functionEntry accessMode="public" endPc="268442193" name="DebugLayout" parent="Layouts" startPc="268441430">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

@@ -67,9 +67,8 @@ class SlopeWidgetGlanceView extends WatchUi.GlanceView {
                     :text=>alphaSymbol + ">", 
                     :color=>_c.alphaColor,
                     :font=>Graphics.FONT_MEDIUM,
-                    :locX=>WatchUi.LAYOUT_HALIGN_START + 60,
-                    :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM
-                }
+                    :locX=>WatchUi.LAYOUT_HALIGN_RIGHT,
+                    :locY=>WatchUi.LAYOUT_VALIGN_CENTER              }
             );
             alphaText.draw(dc);
         }
@@ -87,7 +86,7 @@ class SlopeWidgetGlanceView extends WatchUi.GlanceView {
             {
                 :text=>text, 
                 :color=>Graphics.COLOR_WHITE,
-                :font=>Graphics.FONT_GLANCE,
+                :font=>Graphics.FONT_MEDIUM,
                 :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
                 :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM
             }
@@ -100,7 +99,7 @@ class SlopeWidgetGlanceView extends WatchUi.GlanceView {
             {
                 :text=>_c.inclination.format("%.1f") + degreeSymbol, 
                 :color=>_c.color,
-                :font=>Graphics.FONT_GLANCE_NUMBER,
+                :font=>Graphics.FONT_NUMBER_MEDIUM,
                 :locX=>WatchUi.LAYOUT_HALIGN_LEFT,
                 :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM
             }

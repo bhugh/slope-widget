@@ -200,9 +200,9 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
     }
     [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc"; @line = 63; ]
     function drawAlpha(dc) {
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_63_27_76_4_start:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_63_27_75_4_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 64 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_75_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_74_8_if_stmt:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_11_64_86_begin:
         %tmp.2 = getv ? :_app;
         %tmp.3 = getv function %tmp.2 :getProperty;
@@ -223,11 +223,11 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
         push %tmp.13;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_11_64_86_end:
         %tmp.14 = phi [%tmp.7 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_11_64_86_begin] [%tmp.8 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_11_64_86_true] [%tmp.13 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_11_64_86_false] [%tmp.14 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_11_64_86_end];
-        bf %tmp.14 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_75_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_75_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_75_8_start:
+        bf %tmp.14 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_74_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_74_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_74_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 65 12 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_75_8_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_75_8_stop" ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_74_8_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_74_8_stop" ]
         %alphaText.1 = local;
         %tmp.17 = getm $.Toybox.WatchUi;
         %tmp.18 = getv function ? %tmp.17 :Text;
@@ -250,58 +250,56 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
         %tmp.40 = aputv %tmp.39 %tmp.36 %tmp.38;
         %tmp.42 = const :locX;
         %tmp.43 = getm $.Toybox.WatchUi;
-        %tmp.44 = getv %tmp.43 :LAYOUT_HALIGN_START;
-        %tmp.45 = 60;
-        %tmp.46 = add %tmp.44 %tmp.45;
-        %tmp.47 = dup %tmp.40;
-        %tmp.48 = aputv %tmp.47 %tmp.42 %tmp.46;
-        %tmp.50 = const :locY;
-        %tmp.51 = getm $.Toybox.WatchUi;
-        %tmp.52 = getv %tmp.51 :LAYOUT_VALIGN_BOTTOM;
-        %tmp.53 = dup %tmp.48;
-        %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
-        %tmp.15 = newc %tmp.18 (%tmp.54);
+        %tmp.44 = getv %tmp.43 :LAYOUT_HALIGN_RIGHT;
+        %tmp.45 = dup %tmp.40;
+        %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+        %tmp.48 = const :locY;
+        %tmp.49 = getm $.Toybox.WatchUi;
+        %tmp.50 = getv %tmp.49 :LAYOUT_VALIGN_CENTER;
+        %tmp.51 = dup %tmp.46;
+        %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+        %tmp.15 = newc %tmp.18 (%tmp.52);
         lputv %alphaText.1 %tmp.15;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 74 12 ]
-        %tmp.55 = lgetv %alphaText.1;
-        %tmp.56 = getv function %tmp.55 :draw;
-        %tmp.58 = lgetv %dc;
-        invoke %tmp.55 %tmp.56(%tmp.58);
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_75_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_75_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_75_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_63_27_76_4_stop:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 73 12 ]
+        %tmp.53 = lgetv %alphaText.1;
+        %tmp.54 = getv function %tmp.53 :draw;
+        %tmp.56 = lgetv %dc;
+        invoke %tmp.53 %tmp.54(%tmp.56);
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_88_74_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_74_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_64_8_74_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_63_27_75_4_stop:
     }
-    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc"; @line = 78; ]
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc"; @line = 77; ]
     function drawNoData(dc) {
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_78_28_96_4_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 79 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_78_28_96_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_78_28_96_4_stop" ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_77_28_95_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 78 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_77_28_95_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_77_28_95_4_stop" ]
         %text.1 = local;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 80 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_8_85_8_if_stmt:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 79 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_stmt:
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 151;
         %tmp.5 = gte %tmp.3 %tmp.4;
-        bf %tmp.5 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_8_85_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_8_85_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_33_82_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 81 12 ]
+        bf %tmp.5 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_33_81_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 80 12 ]
         %tmp.6 = "Accelerometer error";
         lputv %text.1 %tmp.6;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_33_82_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_8_85_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_8_85_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_83_13_85_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 84 12 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_33_81_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_82_13_84_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 83 12 ]
         %tmp.7 = "Accel error";
         lputv %text.1 %tmp.7;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_83_13_85_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_80_8_85_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 86 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_78_28_96_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_78_28_96_4_stop" ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_82_13_84_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_end:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 85 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_77_28_95_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_77_28_95_4_stop" ]
         %noDataText.2 = local;
         %tmp.10 = getm $.Toybox.WatchUi;
         %tmp.11 = getv function ? %tmp.10 :Text;
@@ -317,7 +315,7 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
         %tmp.24 = aputv %tmp.23 %tmp.20 %tmp.22;
         %tmp.26 = const :font;
         %tmp.27 = getm $.Toybox.Graphics;
-        %tmp.28 = getv %tmp.27 :FONT_GLANCE;
+        %tmp.28 = getv %tmp.27 :FONT_MEDIUM;
         %tmp.29 = dup %tmp.24;
         %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
         %tmp.32 = const :locX;
@@ -332,18 +330,18 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
         %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
         %tmp.8 = newc %tmp.11 (%tmp.42);
         lputv %noDataText.2 %tmp.8;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 95 8 ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 94 8 ]
         %tmp.43 = lgetv %noDataText.2;
         %tmp.44 = getv function %tmp.43 :draw;
         %tmp.46 = lgetv %dc;
         invoke %tmp.43 %tmp.44(%tmp.46);
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_78_28_96_4_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_77_28_95_4_stop:
     }
-    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc"; @line = 98; ]
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc"; @line = 97; ]
     function drawInclination(dc) {
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_98_33_109_4_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 99 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_98_33_109_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_98_33_109_4_stop" ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_97_33_108_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 98 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_97_33_108_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_97_33_108_4_stop" ]
         %inclinationText.1 = local;
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv function ? %tmp.3 :Text;
@@ -365,7 +363,7 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
         %tmp.25 = aputv %tmp.24 %tmp.20 %tmp.23;
         %tmp.27 = const :font;
         %tmp.28 = getm $.Toybox.Graphics;
-        %tmp.29 = getv %tmp.28 :FONT_GLANCE_NUMBER;
+        %tmp.29 = getv %tmp.28 :FONT_NUMBER_MEDIUM;
         %tmp.30 = dup %tmp.25;
         %tmp.31 = aputv %tmp.30 %tmp.27 %tmp.29;
         %tmp.33 = const :locX;
@@ -380,12 +378,12 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
         %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
         %tmp.1 = newc %tmp.4 (%tmp.43);
         lputv %inclinationText.1 %tmp.1;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 108 8 ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 107 8 ]
         %tmp.44 = lgetv %inclinationText.1;
         %tmp.45 = getv function %tmp.44 :draw;
         %tmp.47 = lgetv %dc;
         invoke %tmp.44 %tmp.45(%tmp.47);
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_98_33_109_4_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_97_33_108_4_stop:
     }
 }
 [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc"; @line = 1; ]

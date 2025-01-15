@@ -5,14 +5,15 @@ class SlopeWidgetView extends WatchUi.View {
 
     var debugLabel, pitchLabel, rollLabel, inclinationLabel, alphaLabel;
     hidden var timer;
-    var degreeSymbol = StringUtil.utf8ArrayToString([0xC2,0xB0]);
+    //var degreeSymbol = StringUtil.utf8ArrayToString([0xC2,0xB0]);
+    var degreeSymbol ="";
     var alphaSymbol = StringUtil.utf8ArrayToString([0xce,0xb1]);
     var flatConstant = 2;
     hidden var _c;
     hidden var _app;
     hidden var _paused;
     //hidden var _inclinationFont = Graphics.FONT_NUMBER_THAI_HOT;
-    hidden var _inclinationFont = Graphics.FONT_NUMBER_HOT;
+    hidden var _inclinationFont = Graphics.FONT_NUMBER_MEDIUM;
 
     function initialize() {
         _app = Application.getApp();
@@ -175,11 +176,18 @@ class SlopeWidgetView extends WatchUi.View {
 
     function drawInclination(dc) {
         //draw this IF not level (otherwise, DRAWFLAT will fill this space)
+        var addTxtLeft = "";
+        var addTxtRight = "";
+        if(_c.rollNormalized < 0 ){
+            addTxtLeft = "";
+            addTxtRight = "";
+        }
+
         if(_c.rollNormalized.abs() >= flatConstant && _c.pitch.abs() >= flatConstant)
         {
             var inclinationText = new WatchUi.Text(
                 {
-                    :text=>_c.inclination.format("%.1f") + degreeSymbol, 
+                    :text=>addTxtLeft + _c.inclination.format("%.1f") + degreeSymbol + addTxtRight, 
                     :color=>_c.color,
                     :font=>_inclinationFont,
                     :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
@@ -192,12 +200,18 @@ class SlopeWidgetView extends WatchUi.View {
 
     function drawPitch(dc) {
         var vAlign = WatchUi.LAYOUT_VALIGN_BOTTOM;
+        var addTxt ="";
         if(_c.pitch < 0){
             vAlign = WatchUi.LAYOUT_VALIGN_TOP;
+            var mySettings = System.getDeviceSettings();
+            var screenShape = mySettings.screenShape;
+
+            if (screenShape == System.SCREEN_SHAPE_SEMI_OCTAGON)
+            { addTxt="    ";}
         }
         var pitchText = new WatchUi.Text(
             {
-                :text=>_c.pitch.abs().format("%.1f") + degreeSymbol,
+                :text=>_c.pitch.abs().format("%.1f") + degreeSymbol + addTxt,
                 :color=>_c.pitchColor,
                 :font=>Graphics.FONT_NUMBER_MEDIUM,
                 :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
@@ -216,9 +230,9 @@ class SlopeWidgetView extends WatchUi.View {
         }
         var rollText = new WatchUi.Text(
             {
-                :text=>_c.rollNormalized.abs().format("%.1f") + degreeSymbol,
+                :text=>_c.rollNormalized.abs().format("%.0f") + degreeSymbol,
                 :color=>_c.rollColor,
-                :font=>Graphics.FONT_NUMBER_MEDIUM,
+                :font=>Graphics.FONT_NUMBER_MILD,
                 :locX=>hAlign,
                 :locY=>WatchUi.LAYOUT_VALIGN_CENTER
             }
@@ -236,7 +250,7 @@ class SlopeWidgetView extends WatchUi.View {
                 {
                     :text=>"LEVEL",
                     :color=>Graphics.COLOR_WHITE,
-                    :font=>Graphics.FONT_MEDIUM,
+                    :font=>Graphics.FONT_LARGE,
                     :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
                     :locY=>WatchUi.LAYOUT_VALIGN_CENTER
                 }
