@@ -22,7 +22,13 @@ class CalculateInclinations{
             zAccel = accel[2];
         }
         else{
-            noData = false;
+            var app = Application.getApp();
+            //return real NoDOT info UNLESS we have set the SHOWDEBUG property
+            //in resources/settings/properties
+            if(app.getProperty("showDebug") == null ? true : app.getProperty("showDebug")){ noData = false;} 
+            else {
+                noData = true;
+            }
             //test inputs
             xAccel = -921;
             yAccel = -37;

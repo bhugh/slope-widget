@@ -145,10 +145,10 @@ class SlopeWidgetView extends WatchUi.View {
     function drawNoData(dc) {
         var text;
         if(dc.getWidth() >= 240) {
-            text = "Error getting \naccelerometer data";
+            text = "No \naccelerometer \ndata";
         }
         else {
-            text = "Error getting \naccelerometer \ndata";
+            text = "No \naccelerometer \ndata";
         }
         var noDataText = new WatchUi.Text(
             {

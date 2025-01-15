@@ -756,14 +756,14 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_147_8_152_8_if_true:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_147_33_149_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetView.mc" 148 12 ]
-        %tmp.6 = "Error getting \naccelerometer data";
+        %tmp.6 = "No \naccelerometer \ndata";
         lputv %text.1 %tmp.6;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_147_33_149_8_stop:
         goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_147_8_152_8_if_end;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_147_8_152_8_if_false:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_150_13_152_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetView.mc" 151 12 ]
-        %tmp.7 = "Error getting \naccelerometer \ndata";
+        %tmp.7 = "No \naccelerometer \ndata";
         lputv %text.1 %tmp.7;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_150_13_152_8_stop:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetView_mc_147_8_152_8_if_end:

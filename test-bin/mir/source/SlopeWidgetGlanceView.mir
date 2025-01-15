@@ -287,14 +287,14 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidget
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_true:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_33_81_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 80 12 ]
-        %tmp.6 = "Accelerometer error";
+        %tmp.6 = "(No data)";
         lputv %text.1 %tmp.6;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_33_81_8_stop:
         goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_end;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_false:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_82_13_84_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetGlanceView.mc" 83 12 ]
-        %tmp.7 = "Accel error";
+        %tmp.7 = "(No data)";
         lputv %text.1 %tmp.7;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_82_13_84_8_stop:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetGlanceView_mc_79_8_84_8_if_end:

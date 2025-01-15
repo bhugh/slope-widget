@@ -77,10 +77,10 @@ class SlopeWidgetGlanceView extends WatchUi.GlanceView {
     function drawNoData(dc) {
         var text;
         if(dc.getWidth() >= 151) {
-            text = "Accelerometer error";
+            text = "(No data)";
         }
         else {
-            text = "Accel error";
+            text = "(No data)";
         }
         var noDataText = new WatchUi.Text(
             {

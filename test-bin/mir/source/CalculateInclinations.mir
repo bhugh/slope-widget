@@ -45,21 +45,21 @@ class CalculateInclinations{
     var redAngle = 50;
     [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc"; @line = 15; ]
     function calculate() {
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_start:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 16 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_stop" ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_stop" ]
         %sensorInfo.1 = local;
         %tmp.2 = getv ? :Sensor;
         %tmp.3 = getv function %tmp.2 :getInfo;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %sensorInfo.1 %tmp.4;
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 17 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_stmt:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_12_17_57_begin:
         %tmp.6 = lgetv %sensorInfo.1;
         %tmp.8 = const :accel;
         %tmp.9 = canhazplz %tmp.6 %tmp.8;
-        bf %tmp.9 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_false;
+        bf %tmp.9 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_false;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_37_17_57_true:
         %tmp.10 = lgetv %sensorInfo.1;
         %tmp.11 = as %tmp.10 { (interface { var accel; }) };
@@ -69,8 +69,8 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateIn
         push %tmp.14;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_37_17_57_end:
         %tmp.15 = phi [%tmp.9 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_12_17_57_begin] [%tmp.14 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_37_17_57_true] [%tmp.15 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_37_17_57_end];
-        bf %tmp.15 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_true:
+        bf %tmp.15 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_true:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_63_23_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 18 12 ]
         %tmp.16 = false;
@@ -98,157 +98,198 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateIn
         %tmp.31 = agetv %tmp.29 %tmp.30;
         putv self :zAccel %tmp.31;
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_63_23_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_30_8_start:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_36_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 25 12 ]
-        %tmp.32 = false;
-        putv self :noData %tmp.32;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 27 12 ]
-        %tmp.33 = -921;
-        putv self :xAccel %tmp.33;
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_36_8_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_36_8_stop" ]
+        %app.3 = local;
+        %tmp.32 = getm $.Toybox.Application;
+        %tmp.33 = getv function %tmp.32 :getApp;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        lputv %app.3 %tmp.34;
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 28 12 ]
-        %tmp.34 = -37;
-        putv self :yAccel %tmp.34;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 29 12 ]
-        %tmp.35 = -305;
-        putv self :zAccel %tmp.35;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_30_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 31 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_stop" ]
-        %pitchRad.3 = local;
-        %tmp.37 = getv ? :Math;
-        %tmp.38 = getv function %tmp.37 :atan2;
-        %tmp.40 = getv ? :yAccel;
-        %tmp.42 = getv ? :Math;
-        %tmp.43 = getv function %tmp.42 :sqrt;
-        %tmp.45 = getv ? :Math;
-        %tmp.46 = getv function %tmp.45 :pow;
-        %tmp.48 = getv ? :xAccel;
-        %tmp.49 = 2;
-        %tmp.50 = invoke %tmp.45 %tmp.46(%tmp.48, %tmp.49);
-        %tmp.52 = getv ? :Math;
-        %tmp.53 = getv function %tmp.52 :pow;
-        %tmp.55 = getv ? :zAccel;
-        %tmp.56 = 2;
-        %tmp.57 = invoke %tmp.52 %tmp.53(%tmp.55, %tmp.56);
-        %tmp.58 = add %tmp.50 %tmp.57;
-        %tmp.59 = invoke %tmp.42 %tmp.43(%tmp.58);
-        %tmp.60 = invoke %tmp.37 %tmp.38(%tmp.40, %tmp.59);
-        lputv %pitchRad.3 %tmp.60;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 32 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_stop" ]
-        %rollRad.4 = local;
-        %tmp.62 = getv ? :Math;
-        %tmp.63 = getv function %tmp.62 :atan2;
-        %tmp.65 = getv ? :xAccel;
-        %tmp.66 = sub 0 %tmp.65;
-        %tmp.68 = getv ? :zAccel;
-        %tmp.69 = invoke %tmp.62 %tmp.63(%tmp.66, %tmp.68);
-        lputv %rollRad.4 %tmp.69;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 33 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_stop" ]
-        %inclinationRad.5 = local;
-        %tmp.71 = getv ? :Math;
-        %tmp.72 = getv function %tmp.71 :atan;
-        %tmp.74 = getv ? :Math;
-        %tmp.75 = getv function %tmp.74 :sqrt;
-        %tmp.77 = getv ? :Math;
-        %tmp.78 = getv function %tmp.77 :pow;
-        %tmp.80 = getv ? :Math;
-        %tmp.81 = getv function %tmp.80 :tan;
-        %tmp.83 = lgetv %pitchRad.3;
-        %tmp.84 = invoke %tmp.80 %tmp.81(%tmp.83);
-        %tmp.85 = 2;
-        %tmp.86 = invoke %tmp.77 %tmp.78(%tmp.84, %tmp.85);
-        %tmp.88 = getv ? :Math;
-        %tmp.89 = getv function %tmp.88 :pow;
-        %tmp.91 = getv ? :Math;
-        %tmp.92 = getv function %tmp.91 :tan;
-        %tmp.94 = lgetv %rollRad.4;
-        %tmp.95 = invoke %tmp.91 %tmp.92(%tmp.94);
-        %tmp.96 = 2;
-        %tmp.97 = invoke %tmp.88 %tmp.89(%tmp.95, %tmp.96);
-        %tmp.98 = add %tmp.86 %tmp.97;
-        %tmp.99 = invoke %tmp.74 %tmp.75(%tmp.98);
-        %tmp.100 = invoke %tmp.71 %tmp.72(%tmp.99);
-        lputv %inclinationRad.5 %tmp.100;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 34 8 ]
-        %tmp.102 = getv ? :Math;
-        %tmp.103 = getv function %tmp.102 :toDegrees;
-        %tmp.105 = lgetv %pitchRad.3;
-        %tmp.106 = invoke %tmp.102 %tmp.103(%tmp.105);
-        putv self :pitch %tmp.106;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 35 8 ]
-        %tmp.108 = getv ? :Math;
-        %tmp.109 = getv function %tmp.108 :toDegrees;
-        %tmp.111 = lgetv %rollRad.4;
-        %tmp.112 = invoke %tmp.108 %tmp.109(%tmp.111);
-        putv self :roll %tmp.112;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_12_31_12_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_begin:
+        %tmp.35 = lgetv %app.3;
+        %tmp.36 = getv function %tmp.35 :getProperty;
+        %tmp.37 = "showDebug";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.39 = null;
+        %tmp.40 = eq %tmp.38 %tmp.39;
+        bf %tmp.40 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_true:
+        %tmp.41 = true;
+        push %tmp.41;
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_false:
+        %tmp.42 = lgetv %app.3;
+        %tmp.43 = getv function %tmp.42 :getProperty;
+        %tmp.44 = "showDebug";
+        %tmp.45 = invoke %tmp.42 %tmp.43(%tmp.44);
+        push %tmp.45;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_end:
+        %tmp.46 = phi [%tmp.40 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_begin] [%tmp.41 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_true] [%tmp.45 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_false] [%tmp.46 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_15_28_88_end];
+        bf %tmp.46 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_12_31_12_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_12_31_12_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_90_28_107_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 28 92 ]
+        %tmp.47 = false;
+        putv self :noData %tmp.47;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_90_28_107_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_12_31_12_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_12_31_12_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_29_17_31_12_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 30 16 ]
+        %tmp.48 = true;
+        putv self :noData %tmp.48;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_29_17_31_12_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_28_12_31_12_if_end:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 33 12 ]
+        %tmp.49 = -921;
+        putv self :xAccel %tmp.49;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 34 12 ]
+        %tmp.50 = -37;
+        putv self :yAccel %tmp.50;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 35 12 ]
+        %tmp.51 = -305;
+        putv self :zAccel %tmp.51;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_36_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_36_8_if_end:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 37 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_8_45_8_if_stmt:
-        %tmp.114 = getv ? :roll;
-        %tmp.115 = 90;
-        %tmp.116 = gt %tmp.114 %tmp.115;
-        bf %tmp.116 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_8_45_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_8_45_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_21_39_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 38 12 ]
-        %tmp.118 = getv ? :roll;
-        %tmp.119 = 180;
-        %tmp.120 = sub %tmp.118 %tmp.119;
-        putv self :rollNormalized %tmp.120;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_21_39_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_8_45_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_8_45_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 40 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_13_45_8_if_stmt:
-        %tmp.122 = getv ? :roll;
-        %tmp.123 = -90;
-        %tmp.124 = lt %tmp.122 %tmp.123;
-        bf %tmp.124 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_13_45_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_13_45_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_27_42_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 41 12 ]
-        %tmp.126 = getv ? :roll;
-        %tmp.127 = 180;
-        %tmp.128 = add %tmp.126 %tmp.127;
-        putv self :rollNormalized %tmp.128;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_27_42_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_13_45_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_13_45_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_12_45_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 44 12 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_stop" ]
+        %pitchRad.4 = local;
+        %tmp.53 = getv ? :Math;
+        %tmp.54 = getv function %tmp.53 :atan2;
+        %tmp.56 = getv ? :yAccel;
+        %tmp.58 = getv ? :Math;
+        %tmp.59 = getv function %tmp.58 :sqrt;
+        %tmp.61 = getv ? :Math;
+        %tmp.62 = getv function %tmp.61 :pow;
+        %tmp.64 = getv ? :xAccel;
+        %tmp.65 = 2;
+        %tmp.66 = invoke %tmp.61 %tmp.62(%tmp.64, %tmp.65);
+        %tmp.68 = getv ? :Math;
+        %tmp.69 = getv function %tmp.68 :pow;
+        %tmp.71 = getv ? :zAccel;
+        %tmp.72 = 2;
+        %tmp.73 = invoke %tmp.68 %tmp.69(%tmp.71, %tmp.72);
+        %tmp.74 = add %tmp.66 %tmp.73;
+        %tmp.75 = invoke %tmp.58 %tmp.59(%tmp.74);
+        %tmp.76 = invoke %tmp.53 %tmp.54(%tmp.56, %tmp.75);
+        lputv %pitchRad.4 %tmp.76;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 38 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_stop" ]
+        %rollRad.5 = local;
+        %tmp.78 = getv ? :Math;
+        %tmp.79 = getv function %tmp.78 :atan2;
+        %tmp.81 = getv ? :xAccel;
+        %tmp.82 = sub 0 %tmp.81;
+        %tmp.84 = getv ? :zAccel;
+        %tmp.85 = invoke %tmp.78 %tmp.79(%tmp.82, %tmp.84);
+        lputv %rollRad.5 %tmp.85;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 39 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_stop" ]
+        %inclinationRad.6 = local;
+        %tmp.87 = getv ? :Math;
+        %tmp.88 = getv function %tmp.87 :atan;
+        %tmp.90 = getv ? :Math;
+        %tmp.91 = getv function %tmp.90 :sqrt;
+        %tmp.93 = getv ? :Math;
+        %tmp.94 = getv function %tmp.93 :pow;
+        %tmp.96 = getv ? :Math;
+        %tmp.97 = getv function %tmp.96 :tan;
+        %tmp.99 = lgetv %pitchRad.4;
+        %tmp.100 = invoke %tmp.96 %tmp.97(%tmp.99);
+        %tmp.101 = 2;
+        %tmp.102 = invoke %tmp.93 %tmp.94(%tmp.100, %tmp.101);
+        %tmp.104 = getv ? :Math;
+        %tmp.105 = getv function %tmp.104 :pow;
+        %tmp.107 = getv ? :Math;
+        %tmp.108 = getv function %tmp.107 :tan;
+        %tmp.110 = lgetv %rollRad.5;
+        %tmp.111 = invoke %tmp.107 %tmp.108(%tmp.110);
+        %tmp.112 = 2;
+        %tmp.113 = invoke %tmp.104 %tmp.105(%tmp.111, %tmp.112);
+        %tmp.114 = add %tmp.102 %tmp.113;
+        %tmp.115 = invoke %tmp.90 %tmp.91(%tmp.114);
+        %tmp.116 = invoke %tmp.87 %tmp.88(%tmp.115);
+        lputv %inclinationRad.6 %tmp.116;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 40 8 ]
+        %tmp.118 = getv ? :Math;
+        %tmp.119 = getv function %tmp.118 :toDegrees;
+        %tmp.121 = lgetv %pitchRad.4;
+        %tmp.122 = invoke %tmp.118 %tmp.119(%tmp.121);
+        putv self :pitch %tmp.122;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 41 8 ]
+        %tmp.124 = getv ? :Math;
+        %tmp.125 = getv function %tmp.124 :toDegrees;
+        %tmp.127 = lgetv %rollRad.5;
+        %tmp.128 = invoke %tmp.124 %tmp.125(%tmp.127);
+        putv self :roll %tmp.128;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 43 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_8_51_8_if_stmt:
         %tmp.130 = getv ? :roll;
-        putv self :rollNormalized %tmp.130;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_12_45_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_40_13_45_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_37_8_45_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 47 8 ]
-        %tmp.132 = getv ? :Math;
-        %tmp.133 = getv function %tmp.132 :toDegrees;
-        %tmp.135 = lgetv %inclinationRad.5;
-        %tmp.136 = invoke %tmp.132 %tmp.133(%tmp.135);
-        putv self :inclination %tmp.136;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 48 8 ]
-        %tmp.137 = self;
-        %tmp.138 = getv function %tmp.137 :isAlphaSafe;
-        %tmp.139 = invoke %tmp.137 %tmp.138();
-        putv self :alphaSafe %tmp.139;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 49 8 ]
-        %tmp.140 = self;
-        %tmp.141 = getv function %tmp.140 :setColor;
-        invoke %tmp.140 %tmp.141();
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_50_4_stop:
-    }
-    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc"; @line = 52; ]
-    function isAlphaSafe() {
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_52_27_60_4_start:
+        %tmp.131 = 90;
+        %tmp.132 = gt %tmp.130 %tmp.131;
+        bf %tmp.132 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_8_51_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_8_51_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_21_45_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 44 12 ]
+        %tmp.134 = getv ? :roll;
+        %tmp.135 = 180;
+        %tmp.136 = sub %tmp.134 %tmp.135;
+        putv self :rollNormalized %tmp.136;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_21_45_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_8_51_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_8_51_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 46 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_13_51_8_if_stmt:
+        %tmp.138 = getv ? :roll;
+        %tmp.139 = -90;
+        %tmp.140 = lt %tmp.138 %tmp.139;
+        bf %tmp.140 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_13_51_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_13_51_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_27_48_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 47 12 ]
+        %tmp.142 = getv ? :roll;
+        %tmp.143 = 180;
+        %tmp.144 = add %tmp.142 %tmp.143;
+        putv self :rollNormalized %tmp.144;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_27_48_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_13_51_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_13_51_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_49_12_51_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 50 12 ]
+        %tmp.146 = getv ? :roll;
+        putv self :rollNormalized %tmp.146;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_49_12_51_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_46_13_51_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_43_8_51_8_if_end:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 53 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_52_27_60_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_52_27_60_4_stop" ]
+        %tmp.148 = getv ? :Math;
+        %tmp.149 = getv function %tmp.148 :toDegrees;
+        %tmp.151 = lgetv %inclinationRad.6;
+        %tmp.152 = invoke %tmp.148 %tmp.149(%tmp.151);
+        putv self :inclination %tmp.152;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 54 8 ]
+        %tmp.153 = self;
+        %tmp.154 = getv function %tmp.153 :isAlphaSafe;
+        %tmp.155 = invoke %tmp.153 %tmp.154();
+        putv self :alphaSafe %tmp.155;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 55 8 ]
+        %tmp.156 = self;
+        %tmp.157 = getv function %tmp.156 :setColor;
+        invoke %tmp.156 %tmp.157();
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_15_25_56_4_stop:
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc"; @line = 58; ]
+    function isAlphaSafe() {
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_58_27_66_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 59 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_58_27_66_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_58_27_66_4_stop" ]
         %alphaAngle.1 = local;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_begin:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_begin:
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :getValue;
@@ -256,284 +297,284 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateIn
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = null;
         %tmp.7 = eq %tmp.5 %tmp.6;
-        bf %tmp.7 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_true:
+        bf %tmp.7 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_true:
         %tmp.8 = 50;
         push %tmp.8;
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_false:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_false:
         %tmp.9 = getm $.Toybox.Application;
         %tmp.10 = getv %tmp.9 :Properties;
         %tmp.11 = getv function %tmp.10 :getValue;
         %tmp.12 = "alphaAngle";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         push %tmp.13;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_end:
-        %tmp.14 = phi [%tmp.7 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_begin] [%tmp.8 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_true] [%tmp.13 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_false] [%tmp.14 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_53_25_53_130_end];
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_end:
+        %tmp.14 = phi [%tmp.7 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_begin] [%tmp.8 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_true] [%tmp.13 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_false] [%tmp.14 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_59_25_59_130_end];
         lputv %alphaAngle.1 %tmp.14;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 54 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_8_59_8_if_stmt:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 60 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_8_65_8_if_stmt:
         %tmp.16 = getv ? :inclination;
         %tmp.18 = lgetv %alphaAngle.1;
         %tmp.19 = lt %tmp.16 %tmp.18;
-        bf %tmp.19 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_8_59_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_8_59_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_36_56_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 55 12 ]
+        bf %tmp.19 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_8_65_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_8_65_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_36_62_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 61 12 ]
         %tmp.20 = true;
         ret %tmp.20;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_36_56_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_8_59_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_8_59_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_57_12_59_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 58 12 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_36_62_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_8_65_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_8_65_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_63_12_65_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 64 12 ]
         %tmp.21 = false;
         ret %tmp.21;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_57_12_59_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_54_8_59_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_52_27_60_4_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_63_12_65_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_60_8_65_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_58_27_66_4_stop:
     }
-    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc"; @line = 62; ]
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc"; @line = 68; ]
     function setColor() {
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_62_23_122_4_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 64 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_62_23_122_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_62_23_122_4_stop" ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_23_128_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 70 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_23_128_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_23_128_4_stop" ]
         %mySettings.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getDeviceSettings;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %mySettings.1 %tmp.3;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 65 8 ]
-        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_62_23_122_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_62_23_122_4_stop" ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 71 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_23_128_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_23_128_4_stop" ]
         %screenShape.2 = local;
         %tmp.4 = lgetv %mySettings.1;
         %tmp.5 = getv %tmp.4 :screenShape;
         lputv %screenShape.2 %tmp.5;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 67 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_67_8_74_8_if_stmt:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 73 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_73_8_80_8_if_stmt:
         %tmp.7 = lgetv %screenShape.2;
         %tmp.8 = getm $.Toybox.System;
         %tmp.9 = getv %tmp.8 :SCREEN_SHAPE_SEMI_OCTAGON;
         %tmp.10 = eq %tmp.7 %tmp.9;
-        bf %tmp.10 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_67_8_74_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_67_8_74_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_8_74_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 69 12 ]
+        bf %tmp.10 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_73_8_80_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_73_8_80_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_74_8_80_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 75 12 ]
         %tmp.12 = getv ? :Graphics;
         %tmp.13 = getv %tmp.12 :COLOR_WHITE;
         putv self :color %tmp.13;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 70 12 ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 76 12 ]
         %tmp.15 = getv ? :Graphics;
         %tmp.16 = getv %tmp.15 :COLOR_WHITE;
         putv self :rollColor %tmp.16;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 71 12 ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 77 12 ]
         %tmp.18 = getv ? :Graphics;
         %tmp.19 = getv %tmp.18 :COLOR_WHITE;
         putv self :pitchColor %tmp.19;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 72 12 ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 78 12 ]
         %tmp.21 = getv ? :Graphics;
         %tmp.22 = getv %tmp.21 :COLOR_WHITE;
         putv self :alphaColor %tmp.22;
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 73 12 ]
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 79 12 ]
         ret ?;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_8_74_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_67_8_74_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_67_8_74_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 76 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_8_87_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_74_8_80_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_73_8_80_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_73_8_80_8_if_end:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 82 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_8_93_8_if_stmt:
         %tmp.24 = getv ? :inclination;
         %tmp.26 = getv ? :greenAngle;
         %tmp.27 = lt %tmp.24 %tmp.26;
-        bf %tmp.27 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_8_87_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_8_87_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_36_78_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 77 12 ]
+        bf %tmp.27 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_8_93_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_8_93_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_36_84_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 83 12 ]
         %tmp.29 = getv ? :Graphics;
         %tmp.30 = getv %tmp.29 :COLOR_GREEN;
         putv self :color %tmp.30;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_36_78_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_8_87_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_8_87_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 79 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_13_87_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_36_84_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_8_93_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_8_93_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 85 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_13_93_8_if_stmt:
         %tmp.32 = getv ? :inclination;
         %tmp.34 = getv ? :yellowAngle;
         %tmp.35 = lt %tmp.32 %tmp.34;
-        bf %tmp.35 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_13_87_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_13_87_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_42_81_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 80 12 ]
+        bf %tmp.35 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_13_93_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_13_93_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_42_87_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 86 12 ]
         %tmp.37 = getv ? :Graphics;
         %tmp.38 = getv %tmp.37 :COLOR_YELLOW;
         putv self :color %tmp.38;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_42_81_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_13_87_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_13_87_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 82 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_13_87_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_42_87_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_13_93_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_13_93_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 88 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_13_93_8_if_stmt:
         %tmp.40 = getv ? :inclination;
         %tmp.42 = getv ? :redAngle;
         %tmp.43 = lt %tmp.40 %tmp.42;
-        bf %tmp.43 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_13_87_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_13_87_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_39_84_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 83 12 ]
+        bf %tmp.43 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_13_93_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_13_93_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_39_90_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 89 12 ]
         %tmp.45 = getv ? :Graphics;
         %tmp.46 = getv %tmp.45 :COLOR_RED;
         putv self :color %tmp.46;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_39_84_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_13_87_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_13_87_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_12_87_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 86 12 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_39_90_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_13_93_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_13_93_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_91_12_93_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 92 12 ]
         %tmp.48 = getv ? :Graphics;
         %tmp.49 = getv %tmp.48 :COLOR_YELLOW;
         putv self :color %tmp.49;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_12_87_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_13_87_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_79_13_87_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_76_8_87_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 89 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_8_100_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_91_12_93_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_88_13_93_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_85_13_93_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_82_8_93_8_if_end:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 95 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_8_106_8_if_stmt:
         %tmp.51 = getv ? :rollNormalized;
         %tmp.52 = getv function %tmp.51 :abs;
         %tmp.53 = invoke %tmp.51 %tmp.52();
         %tmp.55 = getv ? :greenAngle;
         %tmp.56 = lt %tmp.53 %tmp.55;
-        bf %tmp.56 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_8_100_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_8_100_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_45_91_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 90 12 ]
+        bf %tmp.56 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_8_106_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_8_106_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_45_97_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 96 12 ]
         %tmp.58 = getv ? :Graphics;
         %tmp.59 = getv %tmp.58 :COLOR_GREEN;
         putv self :rollColor %tmp.59;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_45_91_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_8_100_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_8_100_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 92 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_13_100_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_45_97_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_8_106_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_8_106_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 98 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_13_106_8_if_stmt:
         %tmp.61 = getv ? :rollNormalized;
         %tmp.62 = getv function %tmp.61 :abs;
         %tmp.63 = invoke %tmp.61 %tmp.62();
         %tmp.65 = getv ? :yellowAngle;
         %tmp.66 = lt %tmp.63 %tmp.65;
-        bf %tmp.66 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_13_100_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_13_100_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_51_94_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 93 12 ]
+        bf %tmp.66 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_13_106_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_13_106_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_51_100_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 99 12 ]
         %tmp.68 = getv ? :Graphics;
         %tmp.69 = getv %tmp.68 :COLOR_YELLOW;
         putv self :rollColor %tmp.69;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_51_94_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_13_100_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_13_100_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 95 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_13_100_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_51_100_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_13_106_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_13_106_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 101 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_13_106_8_if_stmt:
         %tmp.71 = getv ? :rollNormalized;
         %tmp.72 = getv function %tmp.71 :abs;
         %tmp.73 = invoke %tmp.71 %tmp.72();
         %tmp.75 = getv ? :redAngle;
         %tmp.76 = lt %tmp.73 %tmp.75;
-        bf %tmp.76 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_13_100_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_13_100_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_48_97_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 96 12 ]
+        bf %tmp.76 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_13_106_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_13_106_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_48_103_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 102 12 ]
         %tmp.78 = getv ? :Graphics;
         %tmp.79 = getv %tmp.78 :COLOR_RED;
         putv self :rollColor %tmp.79;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_48_97_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_13_100_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_13_100_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_12_100_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 99 12 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_48_103_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_13_106_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_13_106_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_104_12_106_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 105 12 ]
         %tmp.81 = getv ? :Graphics;
         %tmp.82 = getv %tmp.81 :COLOR_YELLOW;
         putv self :rollColor %tmp.82;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_12_100_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_13_100_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_92_13_100_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_89_8_100_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 102 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_8_113_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_104_12_106_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_101_13_106_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_98_13_106_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_95_8_106_8_if_end:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 108 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_8_119_8_if_stmt:
         %tmp.84 = getv ? :pitch;
         %tmp.85 = getv function %tmp.84 :abs;
         %tmp.86 = invoke %tmp.84 %tmp.85();
         %tmp.88 = getv ? :greenAngle;
         %tmp.89 = lt %tmp.86 %tmp.88;
-        bf %tmp.89 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_8_113_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_8_113_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_36_104_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 103 12 ]
+        bf %tmp.89 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_8_119_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_8_119_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_36_110_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 109 12 ]
         %tmp.91 = getv ? :Graphics;
         %tmp.92 = getv %tmp.91 :COLOR_GREEN;
         putv self :pitchColor %tmp.92;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_36_104_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_8_113_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_8_113_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 105 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_13_113_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_36_110_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_8_119_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_8_119_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 111 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_13_119_8_if_stmt:
         %tmp.94 = getv ? :pitch;
         %tmp.95 = getv function %tmp.94 :abs;
         %tmp.96 = invoke %tmp.94 %tmp.95();
         %tmp.98 = getv ? :yellowAngle;
         %tmp.99 = lt %tmp.96 %tmp.98;
-        bf %tmp.99 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_13_113_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_13_113_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_42_107_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 106 12 ]
+        bf %tmp.99 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_13_119_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_13_119_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_42_113_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 112 12 ]
         %tmp.101 = getv ? :Graphics;
         %tmp.102 = getv %tmp.101 :COLOR_YELLOW;
         putv self :pitchColor %tmp.102;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_42_107_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_13_113_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_13_113_8_if_false:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 108 13 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_13_113_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_42_113_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_13_119_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_13_119_8_if_false:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 114 13 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_13_119_8_if_stmt:
         %tmp.104 = getv ? :pitch;
         %tmp.105 = getv function %tmp.104 :abs;
         %tmp.106 = invoke %tmp.104 %tmp.105();
         %tmp.108 = getv ? :redAngle;
         %tmp.109 = lt %tmp.106 %tmp.108;
-        bf %tmp.109 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_13_113_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_13_113_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_39_110_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 109 12 ]
+        bf %tmp.109 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_13_119_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_13_119_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_39_116_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 115 12 ]
         %tmp.111 = getv ? :Graphics;
         %tmp.112 = getv %tmp.111 :COLOR_RED;
         putv self :pitchColor %tmp.112;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_39_110_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_13_113_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_13_113_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_12_113_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 112 12 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_39_116_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_13_119_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_13_119_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_117_12_119_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 118 12 ]
         %tmp.114 = getv ? :Graphics;
         %tmp.115 = getv %tmp.114 :COLOR_YELLOW;
         putv self :pitchColor %tmp.115;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_12_113_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_13_113_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_105_13_113_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_102_8_113_8_if_end:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 116 8 ]
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_8_121_8_if_stmt:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_117_12_119_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_114_13_119_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_111_13_119_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_108_8_119_8_if_end:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 122 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_8_127_8_if_stmt:
         %tmp.117 = getv ? :alphaSafe;
-        bf %tmp.117 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_8_121_8_if_false;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_8_121_8_if_true:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_21_118_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 117 12 ]
+        bf %tmp.117 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_8_127_8_if_false;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_8_127_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_21_124_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 123 12 ]
         %tmp.119 = getv ? :Graphics;
         %tmp.120 = getv %tmp.119 :COLOR_GREEN;
         putv self :alphaColor %tmp.120;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_21_118_8_stop:
-        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_8_121_8_if_end;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_8_121_8_if_false:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_119_12_121_8_start:
-[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 120 12 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_21_124_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_8_127_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_8_127_8_if_false:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_125_12_127_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 126 12 ]
         %tmp.122 = getv ? :Graphics;
         %tmp.123 = getv %tmp.122 :COLOR_RED;
         putv self :alphaColor %tmp.123;
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_119_12_121_8_stop:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_116_8_121_8_if_end:
-E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_62_23_122_4_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_125_12_127_8_stop:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_122_8_127_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_68_23_128_4_stop:
     }
 }
 [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc"; @line = 1; ]
