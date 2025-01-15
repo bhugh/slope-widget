@@ -9,6 +9,8 @@ I have made only three changes:
  - The widget displays pitch slope (top/bottom) and roll slope (left/right sides) and LEVEL when level.  The change is, now the widget also displays the overall slope (pitch & roll combined) in the center - unless level.
  - Compiled the widget only for devices that Tim did not compile the widget for - mostly newer devices since Tim's widget was updated.
 
+ Tim's app & source code was released with an Apache-2.0 license, and this version is released with the same.
+
  Below, Tim's README:
 
 
