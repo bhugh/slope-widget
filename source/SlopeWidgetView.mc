@@ -74,6 +74,7 @@ class SlopeWidgetView extends WatchUi.View {
                 {
                     drawHold(dc);
                     drawPitch(dc);
+                    drawInclination(dc);
                     drawRoll(dc);
                     drawFlat(dc);
                 }
@@ -172,16 +173,20 @@ class SlopeWidgetView extends WatchUi.View {
     }
 
     function drawInclination(dc) {
-        var inclinationText = new WatchUi.Text(
-            {
-                :text=>_c.inclination.format("%.1f") + degreeSymbol, 
-                :color=>_c.color,
-                :font=>_inclinationFont,
-                :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
-                :locY=>WatchUi.LAYOUT_VALIGN_CENTER
-            }
-        );
-        inclinationText.draw(dc);
+        //draw this IF not level (otherwise, DRAWFLAT will fill this space)
+        if(_c.rollNormalized.abs() >= flatConstant && _c.pitch.abs() >= flatConstant)
+        {
+            var inclinationText = new WatchUi.Text(
+                {
+                    :text=>_c.inclination.format("%.1f") + degreeSymbol, 
+                    :color=>_c.color,
+                    :font=>_inclinationFont,
+                    :locX=>WatchUi.LAYOUT_HALIGN_CENTER,
+                    :locY=>WatchUi.LAYOUT_VALIGN_CENTER
+                }
+            );
+            inclinationText.draw(dc);
+        }
     }
 
     function drawPitch(dc) {

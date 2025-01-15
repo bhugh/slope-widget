@@ -1,0 +1,69 @@
+[ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 1; ]
+using Toybox.Application;
+[ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 3; ]
+class SlopeWidgetApp extends Application.AppBase{
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 5; ]
+    function initialize() as Void {
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_5_26_7_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc" 6 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_5_26_7_4_stop:
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 10; ]
+    function onStart(state) {
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 14; ]
+    function onStop(state) {
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 18; ]
+    function getInitialView() {
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_18_30_22_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc" 19 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_18_30_22_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_18_30_22_4_stop" ]
+        %view.1 = local;
+        %tmp.4 = getv ? :SlopeWidgetView;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %view.1 %tmp.1;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc" 20 8 ]
+        [ "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_18_30_22_4_start" "E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_18_30_22_4_stop" ]
+        %delegate.2 = local;
+        %tmp.8 = getv ? :InputDelegate;
+        %tmp.10 = lgetv %view.1;
+        %tmp.5 = newc %tmp.8 (%tmp.10);
+        lputv %delegate.2 %tmp.5;
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc" 21 8 ]
+        %tmp.11 = newa 2;
+        %tmp.13 = lgetv %view.1;
+        %tmp.14 = dup %tmp.11;
+        %tmp.15 = aputv %tmp.14 0 %tmp.13;
+        %tmp.17 = lgetv %delegate.2;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 1 %tmp.17;
+        ret %tmp.19;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_18_30_22_4_stop:
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 25; glance = true; ]
+    function getGlanceView() {
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_25_29_27_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc" 26 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :SlopeWidgetGlanceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_SlopeWidgetApp_mc_25_29_27_4_stop:
+    }
+}
+[ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\SlopeWidgetApp.mc"; @line = 1; ]
+<init> {
+}

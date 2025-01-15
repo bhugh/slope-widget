@@ -1,3 +1,17 @@
+This is Tim Zander's Slope Widget for Garmin devices, in the Garmin Connect IQ Store known as Inclinometer.  See:
+
+ https://github.com/TimZander/slope-widget
+ https://apps.garmin.com/en-US/apps/28eff151-31d2-4702-b1e9-79bcc1efe6c0
+
+I have made only three changes:
+
+ - For Instinct devices, the colors changes to work with the monochrome graphics.
+ - The widget displays pitch slope (top/bottom) and roll slope (left/right sides) and LEVEL when level.  The change is, now the widget also displays the overall slope (pitch & roll combined) in the center - unless level.
+ - Compiled the widget only for devices that Tim did not compile the widget for - mostly newer devices since Tim's widget was updated.
+
+ Below, Tim's README:
+
+
 # slope-widget
 
 This widget shows the angle of an inclined plane. May be used as a level or to calculate slope angle. Also displays a secondary alpha angle indicator of greater than or less than 18 degrees.

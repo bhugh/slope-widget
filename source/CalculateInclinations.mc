@@ -60,6 +60,19 @@ class CalculateInclinations{
     }
 
     function setColor(){
+
+        var mySettings = System.getDeviceSettings();
+        var screenShape = mySettings.screenShape;
+
+        if (screenShape == System.SCREEN_SHAPE_SEMI_OCTAGON)
+        {
+            color = Graphics.COLOR_WHITE;
+            rollColor = Graphics.COLOR_WHITE;
+            pitchColor = Graphics.COLOR_WHITE;
+            alphaColor = Graphics.COLOR_WHITE;
+            return;
+        }
+
         if(inclination < greenAngle){
             color = Graphics.COLOR_GREEN;
         }

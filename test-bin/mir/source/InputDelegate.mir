@@ -1,0 +1,52 @@
+[ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 3; ]
+class InputDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 5; @position = 8; ]
+    var callback;
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 7; ]
+    function initialize(c) as Void {
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_7_27_10_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc" 9 8 ]
+        %tmp.5 = lgetv %c;
+        putv self :callback %tmp.5;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_7_27_10_4_stop:
+    }
+    [ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 12; ]
+    function onKey(keyEvent) {
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_12_29_16_4_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc" 13 8 ]
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_8_15_8_if_stmt:
+        %tmp.1 = lgetv %keyEvent;
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getm $.Toybox.WatchUi;
+        %tmp.5 = getv %tmp.4 :KEY_DOWN;
+        %tmp.6 = eq %tmp.3 %tmp.5;
+        bf %tmp.6 @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_8_15_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_8_15_8_if_true:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_50_15_8_start:
+[ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc" 14 12 ]
+        %tmp.8 = getv ? :callback;
+        %tmp.9 = getv function %tmp.8 :setPause;
+        invoke %tmp.8 %tmp.9();
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_50_15_8_stop:
+        goto @E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_8_15_8_if_end;
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_13_8_15_8_if_end:
+E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_InputDelegate_mc_12_29_16_4_stop:
+    }
+}
+[ @file = "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\InputDelegate.mc"; @line = 1; ]
+<init> {
+}

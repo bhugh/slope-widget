@@ -14,4 +14,13 @@ class InputDelegate extends WatchUi.BehaviorDelegate {
             callback.setPause();
         }
     }
+
+
+
+    /*public function onMenu() as Boolean {
+        WatchUi.pushView(new $.Rez.settings, new $.InputDelegate(), WatchUi.SLIDE_UP);
+        return true;
+    } */
+
+
 }
