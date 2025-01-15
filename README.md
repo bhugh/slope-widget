@@ -6,7 +6,11 @@ This is Tim Zander's Slope Widget for Garmin devices, in the Garmin Connect IQ S
 I have made only three changes:
 
  - For Instinct devices, the colors changes to work with the monochrome graphics.
- - The widget displays pitch slope (top/bottom) and roll slope (left/right sides) and LEVEL when level.  The change is, now the widget also displays the overall slope (pitch & roll combined) in the center - unless level.
+
+ - The widget displays pitch slope (top/bottom) and roll slope (left/right sides) and LEVEL when level.  The change is, now the widget also displays the overall slope (pitch & roll combined) in the center, as well, at all times  (unless level).
+
+ - Made various tweaks to font size, justification, and other details to make the widget more compatible with different devices, screen shapes, and sizes.
+
  - Compiled the widget only for devices that Tim did not compile the widget for - mostly newer devices since Tim's widget was updated.
 
  Tim's app & source code was released with an Apache-2.0 license, and this version is released with the same.

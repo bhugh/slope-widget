@@ -8,7 +8,7 @@ class SlopeWidgetView extends WatchUi.View {
     //var degreeSymbol = StringUtil.utf8ArrayToString([0xC2,0xB0]);
     var degreeSymbol ="";
     var alphaSymbol = StringUtil.utf8ArrayToString([0xce,0xb1]);
-    var flatConstant = 2;
+    var flatConstant = 0.1;
     hidden var _c;
     hidden var _app;
     hidden var _paused;

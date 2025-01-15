@@ -102,7 +102,7 @@ E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateIn
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_17_8_30_8_if_false:
 E_Data_Brent_Garmin_App_Development_SDK_examples_slope_widget_source_CalculateInclinations_mc_24_12_30_8_start:
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 25 12 ]
-        %tmp.32 = true;
+        %tmp.32 = false;
         putv self :noData %tmp.32;
 [ "E:\Data-Brent\Garmin-App-Development\SDK-examples\slope-widget\source\CalculateInclinations.mc" 27 12 ]
         %tmp.33 = -921;
