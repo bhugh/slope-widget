@@ -11,7 +11,8 @@ class SlopeWidgetView extends WatchUi.View {
     hidden var _c;
     hidden var _app;
     hidden var _paused;
-    hidden var _inclinationFont = Graphics.FONT_NUMBER_THAI_HOT;
+    //hidden var _inclinationFont = Graphics.FONT_NUMBER_THAI_HOT;
+    hidden var _inclinationFont = Graphics.FONT_NUMBER_HOT;
 
     function initialize() {
         _app = Application.getApp();

@@ -22,7 +22,7 @@ class CalculateInclinations{
             zAccel = accel[2];
         }
         else{
-            noData = true;
+            noData = false;
             //test inputs
             xAccel = -921;
             yAccel = -37;
