@@ -5,7 +5,7 @@
         Use "Connect IQ: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="38d48e4d-d09e-42b2-ba5b-99c353c13e9c" type="widget" name="@Strings.AppName" entry="SlopeWidgetApp" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="3.0.0">
+    <iq:application id="38d48e4d-d09e-42b2-ba5b-99c353c13e9c" type="widget" name="@Strings.AppName" entry="SlopeWidgetApp" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="2.1.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -39,7 +39,7 @@
             <iq:product id="enduro3"/>
             <iq:product id="epix2pro42mm"/>
             <iq:product id="epix2pro47mm"/>
-            <iq:product id="epix2pro51mm"/>            
+            <iq:product id="epix2pro51mm"/>
             <iq:product id="fenix7pro"/>
             <iq:product id="fenix7pronowifi"/>
             <iq:product id="fenix7spro"/>
@@ -79,7 +79,7 @@
             <iq:product id="montana7xx"/>
             <iq:product id="oregon7xx"/>
             <iq:product id="rino7xx"/>
-            <iq:product id="system8preview"/>            
+            <iq:product id="system8preview"/>
             <iq:product id="venu3"/>
             <iq:product id="venu3s"/>
             <iq:product id="venusq2"/>
